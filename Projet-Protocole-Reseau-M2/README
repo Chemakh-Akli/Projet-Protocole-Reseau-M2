@@ -1,0 +1,15 @@
+Fonctionne avec un terminal par serveur
+N Clients peuvent se connecter au même serveur
+
+Compilation : javac *.java
+
+Exécution
+
+Coté serveur : java Serveur
+Le port est 1027 par défaut
+
+Coté client : java Client adresse port
+adresse est une chaîne de caractère (format IPV4 ou IPV6)
+port est un entier (il doit être libre , pas deux client sur le port 1030 en même temps)
+
+Pour le reste du fonctionnement, veuillez lire les instruction du Protocole dans le fichier  ProtocoleP2P
